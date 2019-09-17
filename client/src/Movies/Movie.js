@@ -38,7 +38,7 @@ const Movie = (props) => {
 
   const { title, director, metascore, stars } = movie;
   return (
-    <MovieCard title={title} director={director} metascore={metascore} stars={stars} />
+    <MovieCard {...movie} />
   );
 }
 
